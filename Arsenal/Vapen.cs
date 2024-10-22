@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 public class Vapen
 {
   [JsonInclude]
-  public string Name;
+  public string vapnet;
 
   [JsonInclude]
   private int SkadaMin = 10;

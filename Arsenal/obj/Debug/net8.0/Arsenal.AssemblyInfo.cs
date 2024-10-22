@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arsenal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+093a110b0fc112fc7b251ecf504a6267dace8f14")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arsenal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arsenal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

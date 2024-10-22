@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj": {}
+    "c:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj": {
+    "c:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj",
+        "projectUniqueName": "c:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj",
         "projectName": "Arsenal",
-        "projectPath": "C:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj",
+        "projectPath": "c:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\Arsenal.csproj",
         "packagesPath": "C:\\Users\\leopold.seidenglanz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\obj\\",
+        "outputPath": "c:\\Users\\leopold.seidenglanz\\Documents\\Prog2\\Arsenal\\Arsenal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leopold.seidenglanz\\AppData\\Roaming\\NuGet\\NuGet.Config"

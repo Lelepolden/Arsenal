@@ -1,15 +1,32 @@
 ﻿using System.Text.Json;
 
-string contents = File.ReadAllText("weapon.json");
+string contents = File.ReadAllText("vapen.json");
 
-Vapen w = JsonSerializer.Deserialize<Vapen>(contents);
+Vapen v = JsonSerializer.Deserialize<Vapen>(contents);
 
-Console.WriteLine("How many attacks do you want to make?");
+Console.WriteLine("Hur många attacker vill du göra?");
 
-int numAttacks = 0;
-string numAttacksStr = "";
+int mängdattacker = 0;
+string attackstyrka = "";
 
-while (!int.TryParse(numAttacksStr, out numAttacks))
+while (!int.TryParse(attackstyrka, out mängdattacker))
 {
-  numAttacksStr = Console.ReadLine();
+  attackstyrka = Console.ReadLine();
 }
+
+int skada1 = 0;
+
+Console.ForegroundColor = ConsoleColor.Red;
+
+for (int a = 0; a < mängdattacker; a++)
+{
+  int skada = v.Attack();
+  Console.WriteLine($"+{skada}");
+  skada1 += skada;
+}
+
+Console.ResetColor();
+
+Console.WriteLine($"Du gjorde {skada1} skada");
+
+Console.ReadLine();
